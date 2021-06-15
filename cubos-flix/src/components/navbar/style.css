@@ -1,0 +1,41 @@
+.navbar{
+    background-color: #0F1C26;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 91px 24px 70px;
+}
+
+input{
+    width: 865px;
+    height: 56px;
+    background-color: #171B1E;
+    border: 0px;
+    font-weight: 500;
+    color: #fdfdfd
+}
+
+input:hover{
+    border: 1px solid #8C8C8C;
+}
+
+input:focus{
+    border: 1px solid #FDFDFD;
+}
+
+.img-logo{
+    height: 72px;
+    width: 72px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil{
+    height: 56px;
+    width: 56px;
+    margin-left: 8px;
+}

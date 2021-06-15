@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    font-family: 'Manrope', sans-serif;;
+    font-size: 16px;
+    color: #fdfdfd;
+    background-color: #1D2226;
+}
+
+.app {
+    display: flex;
+    justify-content: space-between
+}
+
+
+.painel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 96px;
+    margin-top: 24px;
+}
+
+.bag{
+    margin-right: 24px;
+}
+
+

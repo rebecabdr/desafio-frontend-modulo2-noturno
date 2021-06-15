@@ -1,0 +1,56 @@
+.topfilmes{
+    display: flex;
+    justify-content: space-between;
+    max-width: 937px;
+}
+.card{
+    width: 168px;
+    height:301px;
+    position: relative;
+}
+
+.card img{
+    width: 168px;
+    height:301px;
+}
+
+.nome-nota{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    position: absolute;
+    top:237px;
+    left: 8px;
+    right: 8px;
+    bottom: 40px;
+    font-weight: 700;
+}
+.nome-nota p{
+    font-size:12px;
+    color:#FBCD6E;
+}
+
+
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 269px;
+    left: 8px;
+    width: 152px;
+    height: 26px;
+    background-color: #A785ED;
+    color: #EEE5FF;
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-size:12px;
+    font-weight: 700;
+}
+
+button:hover{
+    background: linear-gradient(0deg,rgba(46,46,46,.45),rgba(46,46,46,.45)), #a785ed;
+}
+
