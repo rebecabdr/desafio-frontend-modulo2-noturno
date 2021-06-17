@@ -8,19 +8,20 @@ body{
 
 .app {
     display: flex;
-    justify-content: space-between
+    flex-direction: column;
 }
 
 
 .painel{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     margin-left: 96px;
     margin-top: 24px;
-}
-
-.bag{
     margin-right: 24px;
 }
 
+.painel-filmes{
+    display: flex;
+    flex-direction: column;
 
+}

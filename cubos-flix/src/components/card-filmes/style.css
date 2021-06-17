@@ -1,34 +1,36 @@
-.topfilmes{
-    display: flex;
-    justify-content: space-between;
-    max-width: 937px;
-}
 .card{
-    width: 168px;
-    height:301px;
+    margin: 16px 12px;
     position: relative;
 }
 
-.card img{
+.filme{
     width: 168px;
     height:301px;
 }
 
-.nome-nota{
+.infos{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
     margin: 0px;
     position: absolute;
     top:237px;
     left: 8px;
     right: 8px;
     bottom: 40px;
+    font-size: 12px;
     font-weight: 700;
 }
-.nome-nota p{
-    font-size:12px;
+.nota p{
+    font-size:11px;
     color:#FBCD6E;
+}
+
+.nota img{
+    width: 2px;
+    height: 2px;
+    
 }
 
 
