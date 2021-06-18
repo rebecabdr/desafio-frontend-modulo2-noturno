@@ -9,8 +9,10 @@ function Navbar({handle, setSearch}){
         
         <img className="img-logo" src={logo} alt=""></img> 
 
-        <input type="text" placeholder= "Pesquise filmes..." onKeyDown={e => e.key ==='Enter' ? handle(e) : false} onChange={e => setSearch(e.target.value)}/>
-        <button onClick={e => handle(e)}> <img src={lupa} alt="Lupa Pesquisa"/> </button>
+        <div className="search" alt="Pesquisa">
+            <input type="text" placeholder= "Pesquise filmes..." onKeyDown={e => e.key ==='Enter' ? handle(e) : false} onChange={e => setSearch(e.target.value)}/>
+            <img src={lupa} alt="Lupa Pesquisa" onClick={e => handle(e)}/>
+        </div>
         
         <div className="perfil">
             <span className="usuario">Bem vinda Rebeca</span>

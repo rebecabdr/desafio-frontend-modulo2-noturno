@@ -22,17 +22,15 @@
     font-size: 12px;
     font-weight: 700;
 }
+
+.nota{
+    display: flex;
+}
+
 .nota p{
     font-size:11px;
     color:#FBCD6E;
 }
-
-.nota img{
-    width: 2px;
-    height: 2px;
-    
-}
-
 
 button{
     display: flex;

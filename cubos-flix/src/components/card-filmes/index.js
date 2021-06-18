@@ -11,7 +11,7 @@ function Cardfilmes({ movie:{id, title, poster_path, vote_average, price}, handl
             <h2>{title.substr(0,12)}{title.length > 12 ? "..." : ''}</h2>
 
             <div className="nota">
-              <img src={goldenStar} alt="" className="estrela"/>
+              <img className="estrela" src={goldenStar} alt="Estrela dourada" />
               <p> {vote_average}</p>
             </div>
             

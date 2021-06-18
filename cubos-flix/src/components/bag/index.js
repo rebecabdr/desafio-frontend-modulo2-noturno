@@ -18,16 +18,12 @@ function Sacola({bagMovies, handleAdd, handleRemove, prices}){
       </div>
        
       <div className="content-bag">
-        <h2 className={bagMovies.lenght > 0 ? "populated" : ""}>
-          Sua sacola está vazia!
-        </h2>
-
-        <p className={bagMovies.lenght > 0 ? "populated" : ""}>
-          Adicione filmes agora.
-        </p>
-
-        <img src={imgPerson} alt="Pessoa e celular" className={bagMovies.lenght > 0 ? "populated" : ""}/>
-      
+        <div className={bagMovies.length > 0 ? "populated" : ""}> 
+          <h2> Sua sacola está vazia! </h2>
+          <p>Adicione filmes agora.</p>
+          <img src={imgPerson} alt="Pessoa e celular" className={bagMovies.lenght > 0 ? "populated" : ""}/>
+        </div>
+        
         <div className="items-bag">
           {bagMovies.map(item => (
             <div className="item-bag" key={item.id}>
@@ -43,18 +39,19 @@ function Sacola({bagMovies, handleAdd, handleRemove, prices}){
                 <p>{item.amount}</p>
                 <img src={item.amount > 1 ? imgMinus : imgTrash} alt="Remover item" onClick={() => handleRemove(item.id)}/>
               </div>
-
             </div>
           ))}
-        </div>
-      
-        {bagMovies.lenght > 0 ? (
+
+          {bagMovies.length > 0 ? (
           <button>
             Confirme seus dados
             <span>R$ {total.reduce((x,y) => x + y)}</span>
           </button>
+          ) : ''}
 
-        ) : ''}
+        </div>
+      
+        
         
       </div>
     </div>

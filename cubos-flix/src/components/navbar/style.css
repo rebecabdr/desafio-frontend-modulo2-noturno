@@ -1,32 +1,52 @@
 .navbar{
     background-color: #0F1C26;
-    height: 104px;
+    height: 56px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 91px 24px 70px;
+    justify-content: space-evenly;
+    padding: 24px 100px 24px 70px;
+}
+
+.img-logo{
+    height: 36px;
+    width: 32px;
+    margin-right: 42px;
+    align-self: center;
+}
+
+.search{
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 92px;
+    background-color: #171B1E;
 }
 
 input{
-    width: 865px;
-    height: 56px;
+    width: 100%;
+    align-self: center;
     background-color: #171B1E;
     border: 0px;
-    font-weight: 500;
-    color: #fdfdfd
+    font-weight: 700;
+    color: #fdfdfd;
+    padding: 16px 14px;
 }
 
-input:hover{
+.search:hover{
     border: 1px solid #8C8C8C;
 }
 
 input:focus{
     border: 1px solid #FDFDFD;
+    border-radius: 0px;
 }
 
-.img-logo{
-    height: 72px;
-    width: 72px;
+.search img{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    align-self: center;
 }
 
 .perfil{

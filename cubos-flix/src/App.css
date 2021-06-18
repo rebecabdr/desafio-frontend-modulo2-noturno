@@ -6,22 +6,10 @@ body{
     background-color: #1D2226;
 }
 
-.app {
-    display: flex;
-    flex-direction: column;
-}
-
-
 .painel{
     display: flex;
     justify-content: space-between;
     margin-left: 96px;
     margin-top: 24px;
     margin-right: 24px;
-}
-
-.painel-filmes{
-    display: flex;
-    flex-direction: column;
-
 }

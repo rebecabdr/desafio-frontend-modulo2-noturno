@@ -119,8 +119,6 @@ function removeHandler(id){
           />
         </div>
       </div>
-
-      
     </div>
   );
 }
